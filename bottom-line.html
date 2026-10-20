@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bottom line: The Maroon Ledger</title>
+<meta name="description" content="Why Queensland's operating balance forecast moved between updates: government decisions versus the economy and other revisions.">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="assets/icons/site.webmanifest">
+<meta name="theme-color" content="#73182c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="bottomline">
+<a class="skip" href="#content">Skip to content</a>
+<header id="site-header"></header>
+<div id="context-bar"></div>
+<noscript><div class="noscript wrap">The Maroon Ledger needs JavaScript switched on to draw its tables and charts.</div></noscript>
+<main id="content">
+<section class="section"><div class="wrap">
+  <h1>What moved the bottom line?</h1>
+  <div class="prose" style="margin:14px 0 26px">
+  <p class="lede">Each Budget update reconciles the new forecast for the net operating balance against the last one, line by line.</p>
+  <p>Some lines are the government's own decisions: new spending and revenue measures. Others come from outside its direct control: tax receipts running ahead or behind, coal prices moving royalties, the GST pool being shared differently, Commonwealth disaster funding arriving in a different year. Reading the two together is a fairer way to judge a Budget than looking at the surplus or deficit alone, whoever is in government.</p></div>
+  <div class="controls"><label class="ctl">Publication<select id="pub"></select></label><label class="ctl">Year<select id="ryear"></select></label></div>
+  <div class="grid-2" style="align-items:start">
+    <div><div class="tbl-wrap"><table class="ledger" id="recon"></table></div>
+    <p class="chart-note" id="recon-note"></p></div>
+    <div class="card"><h3 id="wf-title"></h3><p class="small muted">$ million. Positive values improve the balance.</p><div class="chart" id="waterfall"></div>
+    <div class="legend"><span><i style="background:#8c1f3d"></i>Government decisions</span><span><i style="background:#2f7fc4"></i>Economy and other revisions</span><span><i style="background:#554a4d"></i>Opening and closing balance</span></div></div>
+  </div>
+  <div class="card tint" style="margin-top:28px"><h3>How we group the lines</h3><p class="small">The line items and figures are exactly as published. The grouping into “government decisions” and “economy and other revisions” is ours. We count revenue measures, expense measures and the additional enterprise bargaining provision as decisions; everything else, including “other parameter adjustments”, as revisions. Treasury notes that other parameter adjustments include Commonwealth funding revisions, flows from government-owned corporations, interest, depreciation, lapses and deferrals, so a small part of that line may reflect earlier decisions.</p></div>
+</div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/pages.js"></script>
+<script src="assets/pages-more.js"></script>
+<script src="assets/pages-portfolios.js"></script>
+</body>
+</html>

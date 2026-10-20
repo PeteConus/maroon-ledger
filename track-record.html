@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Track record: The Maroon Ledger</title>
+<meta name="description" content="How Queensland Budget forecasts compared with what actually happened.">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="assets/icons/site.webmanifest">
+<meta name="theme-color" content="#73182c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="track">
+<a class="skip" href="#content">Skip to content</a>
+<header id="site-header"></header>
+<div id="context-bar"></div>
+<noscript><div class="noscript wrap">The Maroon Ledger needs JavaScript switched on to draw its tables and charts.</div></noscript>
+<main id="content">
+<section class="section"><div class="wrap">
+  <h1>Budget versus outcome.</h1>
+  <p class="lede" style="margin:12px 0 28px">For each year, what the Budget said in June, and what the Report on State Finances recorded after the year closed.</p>
+  <div class="controls"><label class="ctl">Measure<span class="seg" id="measure"><button type="button" aria-pressed="true" data-v="nob">Operating balance</button><button type="button" aria-pressed="false" data-v="revenue">Revenue</button><button type="button" aria-pressed="false" data-v="expenses">Expenses</button><button type="button" aria-pressed="false" data-v="ggs_net_debt">Net debt</button></span></label></div>
+  <div class="grid-2" style="align-items:start">
+    <div class="card"><h3 id="tr-title"></h3><div class="chart" id="tr-chart"></div><div class="legend"><span><i style="background:#d6c6c0;height:10px"></i>Budget estimate</span><span><i style="background:#73182c;height:10px"></i>Outcome</span><span><i style="background:#fff;border:2px dashed #73182c;height:10px"></i>Estimated actual (not final)</span></div></div>
+    <div><div class="tbl-wrap"><table class="ledger" id="tr-table"></table></div><p class="chart-note" id="tr-note"></p></div>
+  </div>
+</div></section>
+<section class="section"><div class="wrap">
+  <h2>How the forecast moved.</h2>
+  <p class="lede" style="margin:10px 0 18px">Each line is one Budget's path for the measure. The maroon line is what happened.</p>
+  <div class="card"><div class="chart" id="vint-chart"></div><div class="legend" id="vint-legend"></div>
+  <p class="chart-note">Each Budget publishes four years: the Budget year and three projection years. The gold line is the current 2026–27 Budget. Comparing forecasts with outcomes says nothing on its own about whether a forecast was reasonable when it was made.</p></div>
+</div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/pages.js"></script>
+<script src="assets/pages-more.js"></script>
+<script src="assets/pages-portfolios.js"></script>
+</body>
+</html>

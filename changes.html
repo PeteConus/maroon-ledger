@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What changed? The Maroon Ledger</title>
+<meta name="description" content="How Queensland's revenue, spending and operating balance have moved over time.">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="assets/icons/site.webmanifest">
+<meta name="theme-color" content="#73182c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="changes">
+<a class="skip" href="#content">Skip to content</a>
+<header id="site-header"></header>
+<div id="context-bar"></div>
+<noscript><div class="noscript wrap">The Maroon Ledger needs JavaScript switched on to draw its tables and charts.</div></noscript>
+<main id="content">
+<section class="section"><div class="wrap">
+  <h1>What changed?</h1>
+  <p class="lede" style="margin:12px 0 28px">Compare published revenue and spending across financial years. A change in a figure does not, on its own, explain why it changed.</p>
+  <div class="grid-2">
+    <div class="card"><h3>Revenue and expenses over time</h3><p class="small muted">General Government Sector, accrual, $ billion</p><div class="chart" id="c-revexp"></div><div class="legend" id="l-revexp"></div></div>
+    <div class="card"><h3>Net operating balance over time</h3><p class="small muted">Revenue less expenses, $ billion. Above zero is a surplus.</p><div class="chart" id="c-nob"></div><div class="legend" id="l-nob"></div></div>
+  </div>
+  <p class="chart-note">Solid: actual outcomes. Dashed: 2025–26 estimated actual, the 2026–27 Budget and projections. Amounts are nominal, not adjusted for inflation.</p>
+</div></section>
+<section class="section"><div class="wrap">
+  <div class="compare-bar"><span class="w">Compare</span><select id="fyA" aria-label="First year"></select><span class="w">with</span><select id="fyB" aria-label="Second year"></select>
+  <span class="seg" id="view" role="group" aria-label="Expense view"><button type="button" aria-pressed="true" data-v="purpose">By purpose</button><button type="button" aria-pressed="false" data-v="type">By type</button></span></div>
+  <div class="grid-2"><div class="card" id="cmp-rev"></div><div class="card" id="cmp-exp"></div></div>
+  <p class="chart-note">Ranked by dollar movement. Nominal amounts. Categories are compared only where the published definitions match; sub-categories within revenue are not shown here because some are classified differently between the Report on State Finances and the Budget papers.</p>
+</div></section>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/pages.js"></script>
+<script src="assets/pages-more.js"></script>
+<script src="assets/pages-portfolios.js"></script>
+</body>
+</html>

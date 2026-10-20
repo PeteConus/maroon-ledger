@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="The Maroon Ledger">
+  <rect x="2" y="2" width="60" height="60" rx="10" fill="#73182c"/>
+  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#fbf3f5" stroke-opacity="0.18" stroke-width="2"/>
+  <!-- ledger columns, rising -->
+  <rect x="14" y="31" width="9" height="15" rx="1.5" fill="#f5e4ea"/>
+  <rect x="27.5" y="23" width="9" height="23" rx="1.5" fill="#f5e4ea"/>
+  <rect x="41" y="14" width="9" height="32" rx="1.5" fill="#ffffff"/>
+  <!-- the accountant's double rule under the total -->
+  <rect x="11" y="50" width="42" height="2.4" rx="1.2" fill="#d88a10"/>
+  <rect x="11" y="54.6" width="42" height="2.4" rx="1.2" fill="#d88a10"/>
+</svg>
