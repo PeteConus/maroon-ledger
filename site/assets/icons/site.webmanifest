@@ -1,0 +1,13 @@
+{
+  "name": "The Maroon Ledger",
+  "short_name": "Maroon Ledger",
+  "description": "An independent guide to the Queensland State Budget.",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#73182c",
+  "background_color": "#fbf8f3",
+  "display": "browser",
+  "start_url": "../../index.html"
+}

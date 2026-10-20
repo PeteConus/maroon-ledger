@@ -1,0 +1,9 @@
+# working and transfer files, never published
+_to_delete/
+artifact/
+__pycache__/
+*.pyc
+*.txt.bak
+.DS_Store
+Thumbs.db
+desktop.ini
