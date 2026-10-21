@@ -14,7 +14,9 @@ Queensland.
 
 ## Viewing it
 
-Download or clone this repository and open `site/index.html` in any modern browser. It needs no
+Live site: https://peteconus.github.io/maroon-ledger/
+
+To run it offline, download or clone this repository and open `site/index.html` in any modern browser. It needs no
 server and no installation, and works offline (web fonts fall back to system fonts).
 
 ## What is where
@@ -44,6 +46,9 @@ cd pipeline
 python3 build_data.py      # prints: N checks, M flagged
 python3 build_pages.py
 ```
+
+The live site is served from the `gh-pages` branch, which holds the contents of `site/` only
+(`git subtree split --prefix site -b gh-pages`, then push that branch).
 
 Read `pipeline/out/validation.txt` after every rebuild. Each check confirms that a breakdown adds
 to its published total, that the same figure agrees across documents, or that a value extracted
