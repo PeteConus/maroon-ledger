@@ -221,7 +221,10 @@ PAGES = {
   <h2 style="margin-top:28px">Who made it</h2>
   <p>The Maroon Ledger was created by Conus Business Consultancy Services, Far North Queensland.</p>
   <h2 style="margin-top:28px" id="privacy">Privacy</h2>
-  <p>This version runs entirely from files on your own computer. It sends nothing anywhere, other than loading two web fonts if you are online. It remembers the financial year you last chose in your browser's local storage, on your device only.</p>
+  <p>The Maroon Ledger has no accounts, advertising, analytics or tracking cookies, and asks for no personal information.</p>
+  <p>The site is hosted on GitHub Pages. Like any web host, GitHub logs technical information when pages are requested, including your IP address, for security purposes; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's privacy statement</a>. The site's fonts are loaded from Google Fonts, which also receives your IP address.</p>
+  <p>Your browser remembers the financial year you last chose, in its local storage on your own device. Nothing is sent back to us.</p>
+  <p>If you email us, we use your message only to reply or to correct the site. If you run a downloaded copy from your own computer, it sends nothing anywhere apart from the font request.</p>
 </div></section>
 """),
 }
