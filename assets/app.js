@@ -412,7 +412,7 @@
     f.innerHTML = '<div class="wrap"><div><a class="brand" href="' + ML.HOME + '">' + ML.LOGO.replace("<svg", '<svg style="width:34px;height:34px"') +
       '<span class="brand-name">The Maroon Ledger</span></a><p style="margin-top:12px;max-width:52ch">An independent guide to the Queensland State Budget, built from official published figures. Not a government publication.</p></div>' +
       '<div class="links"><a href="sources.html">Sources &amp; method</a><a href="about.html">About</a><a href="about.html#corrections">Report an error</a></div>' +
-      '<div class="credit"><span>Figures: Queensland Treasury and ABS. Data built ' + D.built.split("-").reverse().join("/") + ".</span><span>Made by Conus Business Consultancy Services</span></div></div>";
+      '<div class="credit"><span>Source data © State of Queensland (Queensland Treasury) and © Commonwealth of Australia (ABS), used under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Data built ' + D.built.split("-").reverse().join("/") + ".</span><span>Made by Conus Business Consultancy Services</span></div></div>";
   }
 
   ML.ready = function (fn) {
